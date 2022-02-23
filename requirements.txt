@@ -1,0 +1,4 @@
+pyrogram
+bs4
+urllib3
+tgcrypto==1.2.2
