@@ -1,0 +1,24 @@
+{
+    "name": "AnimeNewsbot",
+    "description": "Anime News Bot",
+    "repository": "https://github.com/Metavoidteam/animenewsbot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "telegram bot token here",
+            "required": true
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
