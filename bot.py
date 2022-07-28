@@ -38,7 +38,7 @@ bot = Client(
 )
 
 
-@bot.on_message(filters.command("animenews")
+@bot.on_message(filters.command("animenews"))
 async def animenews(_, message): 
 
     new_page = urlopen("https://myanimelist.net/news")
